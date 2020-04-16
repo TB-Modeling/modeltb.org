@@ -1,0 +1,368 @@
+p {
+    text-align:justify;
+}
+
+body {
+    background-color:#e1e1e1;
+
+    /*background-image:url("images/modeltb_collage_light.jpg");*/
+    /*background-repeat:repeat-y;*/
+}
+
+span.emphasize {
+    font-weight:700;
+}
+
+.peoplelist li {
+    list-style-type:none; 
+    font-family: "Comfortaa", serif;
+    font-size:1.3em;
+    color:#337ab7;
+}
+
+.bios h1 {
+    color:rgb(28,72,138);
+    font-family:"Comfortaa",Trajan,Garamond,"Times New Roman",serif;
+}
+
+.bios img {
+    display:inline;
+    float:left;
+    margin-right:10px;
+    border:1px solid #666;
+    box-shadow:5px 5px 5px rgb(189,189,189);
+}
+
+.bios div {
+    display:block;
+    clear:both;
+    padding-top:10px;
+} 
+
+.bios p {
+    font-size:1.2em;
+}
+
+.peoplelist .assoc {
+    text-indent:20px;
+    font-size:.65em;
+    font-style:italic;
+    color:rgb(28,72,138);
+    font-family: "Comfortaa", serif;
+}
+
+.peoplelist ul {
+    padding-left:0px;
+}
+
+.bios .assoc {
+    text-indent:20px;
+    font-size:1.0em;
+    font-style:italic;
+    font-family: "Comfortaa", serif;
+    color:rgb(28,72,138);
+}
+
+.abstract_nav {
+    margin-bottom:10px;
+}
+
+.abstract_nav a {
+    display:inline-block;
+    padding-left:7.4%;
+}
+.abstract_nav > p {
+    font-size:0.8em !important;
+    color:#666;
+}
+
+.abstract_nav > .current {
+    font-size:1.4em;
+    color:#666;
+    cursor:default; 
+}
+
+.abstract_nav > .current:hover {
+    text-decoration:none;
+}
+.abstract {
+    margin-bottom:10px;
+}
+
+.abstract span.b {
+    font-weight:700;
+}
+
+.abstract span.i {
+    font-style:italic;
+}
+
+.abstract > p {
+    margin-bottom:5px;
+}
+
+.abstract > div > a {
+    cursor:pointer;
+    padding-left:20px;
+    text-decoration:underline;
+}
+
+.abstract > div > p {
+    font-size:0.8em;
+    padding-left:10px;
+}
+
+.hidden_abstract {
+    display: none;
+    font-size:0.8em;
+    padding-top:20px;
+    color:rgb(28,72,138);
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:20px;
+}
+
+.titleban {
+    width:inherit;
+    font-size: calc(20px + 3.0vw);
+    font-weight:bold;
+    text-align:left;
+    padding-top:100px;
+    padding-bottom:50px;
+    /*padding-left:50px;*/
+    margin-top:0px;
+    margin-bottom:0px;
+    color:rgb(28,72,138);/*227,201,79);*/
+    /*text-shadow:2px 2px rgb(40,40,40);*/
+    /*font-family:"Comfortaa",Trajan,Garamond,"Times New Roman",serif;*/
+    font-family:Comfortaa, cursive;
+    font-variant:small-caps;
+}
+
+.big_background {
+    background-image:url("images/slash_back.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.linkbar {
+    /*border-bottom:2px solid #a6a6a6;*/
+    align-content:center;
+    height:60px;
+    font-size:1.4em;
+    /*background-color:white;*/
+}
+
+.linkbar a:link, 
+.linkbar a:visited {
+    display:block;
+    font-weight:bold;
+    color:#808080;
+    text-align:center;
+    padding:4px;
+    padding-top:8px;
+    text-decoration:none;
+    font-variant:small-caps;
+}
+
+.linkbar a:active,
+.linkbar a.current {
+    text-decoration:underline;
+    color:rgb(28,72,138);
+}
+
+.linkbar a:hover,
+.linkbar li:hover {
+    text-decoration:underline;
+    color:rgb(28,72,138);
+/*    background:white;*/
+}
+
+.sub_page_text {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.sub_page_text  p,
+.sub_page_text li {
+    font-size:1.2em;
+}
+
+.sub_page_text > h2 {
+    font-size:1.2em;
+    color:#333;
+}
+
+/* Used in the uganda photo in ongoing projects*/
+.inline_left_photo {
+    margin-right:10px;
+    float:left;
+    height:200px;
+}
+
+.inline_right_photo {
+    float:right;
+    margin-left:10px;
+    height:200px;
+}
+
+.headertext {
+    color:rgb(28,72,138);
+    font-size:1.4em;
+    font-weight:bold;
+    clear:both;
+}
+
+.majorheadertext {
+    color:rgb(28,72,138);
+    padding-top:20px;
+    font-size:2em;
+    font-weight:bold;
+    clear:both;
+}
+
+.row_title {
+    align-content:center;
+    text-align:center;
+    margin:auto;
+}
+
+hr.division_bar {
+    clear:both;
+}
+
+.row_title > h2 {
+    font-family:Comfortaa, cursive;
+    font-size:5.0em;
+    margin-top:6px;
+    margin-bottom:0px;
+    font-variant:small-caps;
+}
+
+.who_we_are {
+    width: 250px;
+    height:250px;
+    border: 5px solid #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(17,53,107);
+}
+
+.who_we_are_text {
+    font-size:1.2em;
+    padding-top:40px;
+    font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.group_phil {
+    width: 450px;
+    height:180px;
+    border: 5px solid rgb(28,72,138);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(189,189,189,0.7);
+}
+
+.group_phil_text {
+    font-size:1.1em;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+    font-family:Comfortaa, "Open-Sans", sans-serif; 
+    /*border:2px solid rgb(28,72,138);*/
+}
+
+.row_text {
+    padding-top:20px;
+    align-content:center;
+    text-align:center;
+}
+
+.row_text > p {
+    font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.page_title {
+    background-color:rgb(28,72,138);
+    color:white;
+    margin-bottom:20px;
+    padding-left:30px;
+    padding-top:5px;
+    padding-bottom:10px;
+    align-content:center;
+    font-family: 'Comfortaa', 'Open-Sans', sans-serif;
+    font-variant:small-caps;
+}
+
+.primary_div {
+    background-color:rgb(28,72,138);
+    color:#f5f5f5;
+    padding-top:35px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:35px;
+    font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.secondary_div {
+    color:rgb(28,72,138);
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:35px;
+    padding-bottom:35px;
+    font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.secondary_block {
+    background-image:url("images/group_phil_back.jpg") !important;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.white_logo {
+    background-color:white;
+    padding:20px;
+    border:1px solid #333;
+}
+
+.ongoing_picture {
+    border: 1px solid #333;
+}
+
+.project_section {
+    margin-bottom:20px;
+    clear:both;
+    overflow:hidden;
+}
+
+.footbar {
+    /*padding-top:40px;
+    padding-left:5%;
+    padding-right:5%;*/
+    /*border:3px solid rgb(234,234,234);*/
+    /*padding:15px;*/
+    background:#e1e1e1;
+    /*border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    box-shadow:5px 5px 5px rgb(30,30,30);*/
+    align-content:center;
+}
+
+.footbar p {
+    font-family:"Comfortaa",Trajan,Garamond,"Times New Roman",serif;
+    color:black;
+    text-align:center;
+    line-height:80px;
+    font-size:0.9em;
+}
+
+.footbar a:link,
+.footbar a:visited,
+.footbar a:hover,
+.footbar a:active {
+    font-family:"Comfortaa",Trajan,Garamond,"Times New Roman",serif;
+    font-weight:bold;
+    color:rgb(28,72,138);    
+}
