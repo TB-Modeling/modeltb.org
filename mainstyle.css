@@ -193,6 +193,11 @@ span.emphasize {
     color:#333;
 }
 
+.sub_page_text > h3 {
+    font-size:1em;
+    color:#333;
+}
+
 /* Used in the uganda photo in ongoing projects*/
 .inline_left_photo {
     margin-right:10px;
@@ -231,6 +236,15 @@ hr.division_bar {
     clear:both;
 }
 
+.row_title_fellowship > h2 {
+    font-family:Comfortaa, cursive;
+    font-size:3.0em;
+    margin-top:6px;
+    margin-bottom:0px;
+    margin-left:6px;
+    font-variant:small-caps;
+}
+
 .row_title > h2 {
     font-family:Comfortaa, cursive;
     font-size:5.0em;
@@ -251,6 +265,21 @@ hr.division_bar {
     font-size:1.2em;
     padding-top:40px;
     font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.who_we_are_text > p {
+    margin-bottom:0;
+}
+
+.faux_button_text {
+    color:#FFFFFF;
+    font-size:1.75em;
+    padding-top:40px;
+    font-family:Comfortaa, "Open-Sans", sans-serif;
+}
+
+.faux_button_text > p {
+    margin-top:0;
 }
 
 .group_phil {
@@ -295,6 +324,7 @@ hr.division_bar {
     font-variant:small-caps;
 }
 
+/* blue */
 .primary_div {
     background-color:rgb(28,72,138);
     color:#f5f5f5;
@@ -305,6 +335,7 @@ hr.division_bar {
     font-family:Comfortaa, "Open-Sans", sans-serif;
 }
 
+/* blue */
 .secondary_div {
     color:rgb(28,72,138);
     padding-left:15px;
@@ -314,6 +345,7 @@ hr.division_bar {
     font-family:Comfortaa, "Open-Sans", sans-serif;
 }
 
+/* white / clear / bg-img */
 .secondary_block {
     background-image:url("images/group_phil_back.jpg") !important;
     background-position:center;
